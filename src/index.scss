@@ -1,11 +1,13 @@
-* {
+@import "./Pages/Home/Home.scss";
+
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body {
+body{
   background: #333;
   color: white;
   font-family: monospace;
-}/*# sourceMappingURL=index.css.map */
+}
