@@ -11,6 +11,7 @@ function App() {
           <Route exact component={Home}/>
         </Routes>
         <Home />
+        <Home />
       </Router>
     </div>
   );

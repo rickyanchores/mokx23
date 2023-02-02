@@ -13,8 +13,8 @@ const Nav = () => {
             href: "/about"
         },
         {
-            name: "Faq",
-            href: "/faq"
+            name: "Contact",
+            href: "/contact"
         }
     ]
 
@@ -24,11 +24,12 @@ const Nav = () => {
         <div className="navLinks">
             {navList.map((link) => {
                 return(
-                    <Link className="link" href={link.href}>{link.name}</Link>
+                    <li>
+                        <Link className="link" to={link.href}>{link.name}</Link>
+                    </li>
                 )
             })}
         </div>
-        <div className="hamburger">X</div>
     </div>
   )
 }
