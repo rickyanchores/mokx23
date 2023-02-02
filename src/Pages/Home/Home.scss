@@ -1,3 +1,11 @@
 .Home{
-    background: palevioletred;
+    background: #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    .image{
+        padding: 2em;
+        width: 650px;
+    }
 }
